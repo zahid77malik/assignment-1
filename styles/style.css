@@ -5,7 +5,7 @@
     font-variation-settings: "wdth" 100;
   }
   /* shared style */
-  main {
+  header,main {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -82,4 +82,118 @@ nav button:hover{
 
 header button:hover {
     background-color: black;
+}
+/* about styles */
+#btn-1 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: 0;
+    cursor: pointer;
+}
+
+#btn-2 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: 0;
+    cursor: pointer;
+}
+
+#btn-3 {
+    width: 122px;
+    height: 41px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: 0;
+    cursor: pointer;
+}
+
+.box-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.box-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.box-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.section-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about-container {
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+}
+
+.about-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about {
+    padding: 32px;
+}
+
+.about:hover {
+    background-color: tan;
+}
+
+.abouts button,
+#btn-1:hover {
+    background-color: lightslategrey;
+}
+
+.abouts button,
+#btn-2:hover {
+    background-color: lightslategrey;
+}
+
+.abouts button,
+#btn-3:hover {
+    background-color: lightslategrey;
 }
